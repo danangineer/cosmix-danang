@@ -19,7 +19,6 @@ dnf5 remove -y cosmic-edit
 dnf5 remove -y cosmic-player 
 dnf5 remove -y cosmic-store 
 dnf5 remove -y firefox 
-dnf5 remove -y gnome-calculator
 dnf5 remove -y gnome-disk-utility
 dnf5 remove -y gnome-system-monitor
 dnf5 remove -y libreoffice-calc
