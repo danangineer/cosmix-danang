@@ -1,10 +1,10 @@
-## Asterix-Danang
+## Cosmix-Danang
 
-This repository is for my own custom [bootc](https://github.com/bootc-dev/bootc) image. It is an adjusted respin of Fedora Kinoite.
+This repository is for my own custom [bootc](https://github.com/bootc-dev/bootc) image. It is an adjusted respin of Fedora Core with the Cosmic desktop.
 
-To build this image I chose Kinoite (quay.io/fedora/fedora-kinoite:latest). I did tests with both Aurora and ublue-kinoite, but I found those a bit too much.
+To build this image I chose the Universal Blue base image (ghcr.io/ublue-os/base-main:latest). 
 
-My KDE has a bare minimum of included applications, no Discover and includes Distrobox.  As an appstore you can install the flatpak of Bazaar.
+My Cosmic has a bare minimum of included applications, no Discover and includes Distrobox.  As an appstore you can install the flatpak of Bazaar.
 
 ### Step 1: Choose a Fedora Atomic image and install it
 
