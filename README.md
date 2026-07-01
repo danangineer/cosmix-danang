@@ -10,15 +10,15 @@ My Cosmic has a bare minimum of included applications, no Discover and includes 
 
 Doesn't matter which one you pick, you'll rebase anyway (Kinoite, Silverblue, Cosmic)
 
-### Step 2: Switch to Asterix
+### Step 2: Switch to Cosmix
 
 From the terminal in your bootc system, run the following command:
 
-    sudo bootc switch ghcr.io/danangineer/asterix-danang
+    sudo bootc switch ghcr.io/danangineer/cosmix-danang
 
 This should queue your image for the next reboot, which you can do immediately after the command finishes. You have officially set up your custom image! 
 
-### Step 3: Cleanup Asterix
+### Step 3: Cleanup Cosmix
 
 Unfortunately some unnecessary cruft is installed, as flatpak, upon install of the Kinoite image. Let's get rid of them, knowing both Okular and Gwenview are already 'baked' in the image as native applications.
 
