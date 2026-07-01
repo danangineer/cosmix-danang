@@ -34,12 +34,9 @@ dnf5 remove -y rhythmbox
 dnf5 remove -y thunderbird 
  
 
-# Use a COPR Example:
-#
-# dnf5 -y copr enable ublue-os/staging
-# dnf5 -y install package
-# Disable COPRs so they don't end up enabled on the final image:
-# dnf5 -y copr disable ublue-os/staging
+# Add Flathub by default
+mkdir -p /etc/flatpak/remotes.d
+curl --retry 3 -o /etc/flatpak/remotes.d/flathub.flatpakrepo "https://dl.flathub.org/repo/flathub.flatpakrepo"
 
 #### Example for enabling a System Unit File
 
