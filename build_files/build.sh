@@ -13,8 +13,15 @@ set -ouex pipefail
 dnf5 install -y distrobox
 dnf5 install -y @cosmic-desktop-environment
 
-dnf5 remove -y firefox
-
+dnf5 remove -y firefox /
+               thunderbird / 
+               libreoffice /
+               nheko /
+               ark /
+               okular /
+               cosmic-player /
+               cosmic-store  /
+               cosmic-edit   /
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
