@@ -7,7 +7,28 @@ It is an adjusted respin of the Universal Blue base image with the Cosmic deskto
 To build this image I chose the Universal Blue base image (ghcr.io/ublue-os/base-main:latest). 
 
 My Cosmic has a bare minimum of included applications, no Cosmic store and includes Distrobox.  As an appstore you can install the flatpak of Bazaar.
-Flathub support is included in the image, so 'flatpak install bazaar' has to be sufficient.
+Flathub support is included in the image, so a 'flatpak install bazaar' has to be sufficient.
+
+Out of the official Fedora Cosmic desktop I have excluded a number of applications:
+
+            ark 
+            cosmic-edit
+            cosmic-player 
+            cosmic-store 
+            firefox 
+            gnome-disk-utility
+            gnome-system-monitor
+            libreoffice-calc
+            libreoffice-impress
+            libreoffice-writer
+            nheko 
+            nvtop
+            okular 
+            qt5ct
+            qt6ct
+            rhythmbox
+            thunderbird 
+The idea is to make the actual bootc image as lean as possible; all additional applications can be installed as flatpak and by using brew or distrobox. 
 
 ### Step 1: Choose a Fedora Atomic image and install it
 
