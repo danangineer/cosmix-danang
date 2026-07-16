@@ -14,7 +14,6 @@ Out of the official Fedora Cosmic desktop I have excluded a number of applicatio
             ark 
             cosmic-edit
             cosmic-player 
-            cosmic-store 
             firefox 
             gnome-disk-utility
             gnome-system-monitor
