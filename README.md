@@ -6,8 +6,11 @@ It is an adjusted respin of the Universal Blue base image with the Cosmic deskto
 
 To build this image I chose the Universal Blue base image (ghcr.io/ublue-os/base-main:latest). 
 
-My Cosmic has a bare minimum of included applications, no Cosmic store and includes Distrobox.  As an appstore you can install the flatpak of Bazaar.
-Flathub support is included in the image, so a 'flatpak install bazaar' has to be sufficient.
+My Cosmic has a bare minimum of included applications and no Cosmic store.
+
+Distrobox and Flathub support are included in the image.  
+
+As an appstore you can install the flatpak of Easyflatpak or Bazaar.
 
 Out of the official Fedora Cosmic desktop I have excluded a number of applications:
 
