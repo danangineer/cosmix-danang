@@ -17,13 +17,13 @@ dnf5 install -y fastfetch
 dnf5 remove -y ark 
 dnf5 remove -y cosmic-edit
 dnf5 remove -y cosmic-player 
-dnf5 remove -y cosmic store
+dnf5 remove -y cosmic-store
 dnf5 remove -y firefox 
 dnf5 remove -y gnome-abrt
 dnf5 remove -y gnome-calculator
 dnf5 remove -y gnome-disk-utility
 dnf5 remove -y gnome-system-monitor
-dnf5 remove -y um-chooser
+dnf5 remove -y im-chooser
 dnf5 remove -y libreoffice-calc
 dnf5 remove -y libreoffice-impress
 dnf5 remove -y libreoffice-writer
