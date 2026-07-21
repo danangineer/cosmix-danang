@@ -11,22 +11,18 @@ Flathub support is included in the image, so a 'flatpak install bazaar' has to b
 
 Out of the official Fedora Cosmic desktop I have excluded a number of applications:
 
-            ark 
-            cosmic-edit
-            cosmic-player 
-            firefox 
-            gnome-disk-utility
-            gnome-system-monitor
-            libreoffice-calc
-            libreoffice-impress
-            libreoffice-writer
-            nheko 
-            nvtop
-            okular 
-            qt5ct
-            qt6ct
-            rhythmbox
-            thunderbird 
+            ark                        nheko 
+            cosmic-edit                nvtop
+            cosmic-player              okular 
+            cosmic-store               qt5ct
+            firefox                    qt6ct
+            gnome-abrt                 rhythmbox
+            gnome-calculator           setroubleshoot
+            gnome-disk-utility         thunderbird
+            gnome-system-monitor       libreoffice-calc
+            im-chooser                 libreoffice-impress
+            libreoffice-writer            
+            
 The idea is to make the actual bootc image as lean as possible; all additional applications can be installed as flatpak and by using brew or distrobox. 
 
 ### Step 1: Choose a Fedora Atomic image and install it
