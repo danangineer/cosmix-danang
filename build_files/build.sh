@@ -12,7 +12,15 @@ set -ouex pipefail
 # this installs a package from fedora repos
 dnf5 install -y @cosmic-desktop-environment
 dnf5 install -y distrobox
+dnf5 install -y eza
 dnf5 install -y fastfetch
+dnf5 install -y fzf
+dnf5 install -y geany
+dnf5 install -y mc
+dnf5 install -y micro
+dnf5 install -y neovim
+dnf5 install -y zoxide
+dnf5 install -y zsh
 
 dnf5 remove -y ark 
 dnf5 remove -y cosmic-edit
