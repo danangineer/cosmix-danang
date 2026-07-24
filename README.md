@@ -24,6 +24,14 @@ Out of the official Fedora Cosmic desktop I have excluded a number of applicatio
             
 The idea is to make the actual bootc image as lean as possible; all additional applications can be installed as flatpak and by using brew or distrobox. 
 
+Some applications are necessary for me ootb, so i did add those:
+
+            distrobox                  mc
+            eza                        micro
+            fastfetch                  neovim
+            fzf                        zoxide
+            geany                      zsh
+
 ### Step 1: Choose a Fedora Atomic image and install it
 
 Doesn't matter which one you pick, you'll rebase anyway (Kinoite, Silverblue, Cosmic)
@@ -42,7 +50,7 @@ For all our CLI applications you'll have to install Homebrew (https://brew.sh) w
 
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-The likes of htop, fastfetch, yazi etc etc are available to you. Or by creating a distrobox of course.
+The likes of htop, fastfetch, yazi etc etc are available to you. Or by creating a distrobox of course. Have fun!
 
 -----------------------------
 
